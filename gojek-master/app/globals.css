@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+.swiper-pagination-bullet{
+  margin: 0 0 0 0.5rem; 
+  border-radius: 0%;
+  background-color: #fff;
+  opacity: 1;
+  transition: width 0.3s ease;
+  width: 12rem;
+  height: 0.5rem;
+}

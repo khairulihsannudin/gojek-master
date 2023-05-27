@@ -1,0 +1,5 @@
+.swiper-pagination-bullet{
+  @apply mr-5 radius-0 bg-white w-[12rem];
+  opacity: 1;
+  transition: width 0.3s ease;
+}
