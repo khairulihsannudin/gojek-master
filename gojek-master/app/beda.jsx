@@ -110,14 +110,6 @@ export default function Beda() {
         </SwiperSlide>
         <SwiperSlide>
           <Card
-            src="beda.png"
-            alt="Card 1"
-            title="Gojek Berkembang"
-            desc="Bersama Gojek membangun negeri"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card
             src="https://lelogama.go-jek.com/prime/upload/cache/62/ac/62ac3b0465bd61d4f71f1920238467bc.webp"
             alt="Card 1"
             title="Gojek Berkembang"

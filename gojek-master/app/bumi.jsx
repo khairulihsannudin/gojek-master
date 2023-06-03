@@ -25,9 +25,9 @@ export default function Bumi(){
     setRotate((rotate - 45 + 360) % 360);
   };
     return(
-        <div className="bg-blue-300 rounded-t-[10vh] flex flex-col items-center gap-10 pt-20 -mt-[10vh]">
+        <div className="bg-blue-300 rounded-t-[10vh] flex flex-col items-center gap-10 pt-20 [&+button]:text-white -mt-[10vh]">
             <h1 className="text-center lg:text-6xl sm:text-4xl text-2xl text font-bold">Ikuti perjalanan <br className="max-sm:hidden"/> kami dalam membuat <br/> dampak sosial!</h1>
-            <button className="bg-greenNew py-3 px-4 md:text-xl font-semibold rounded-full">Masuk Newsroom</button>
+            <button className="bg-greenNew py-3 px-4 md:text-xl font-semibold text-white rounded-full">Masuk Newsroom</button>
       <Swiper 
       modules={[Navigation]} slidesPerView={1}
       loop={true}
@@ -45,7 +45,7 @@ export default function Bumi(){
             <p className="text-center text-lg max-sm:text-xl p-10">{item.text}</p>
             </SwiperSlide>))}
             
-            <button className="bg-greenNew py-3 px-4 md:text-xl font-semibold block mx-auto rounded-full">Masuk Newsroom</button>
+            <button className="bg-greenNew text-white py-3 px-4 md:text-xl font-semibold block mx-auto rounded-full">Masuk Newsroom</button>
             <button ref={prevRef} onClick={rotateLeft} className="bg-white absolute top-1/3 left-0 w-10 h-10 z-20 rounded-full flex items-center justify-center ">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />

@@ -1,4 +1,13 @@
 export default function Layanan(){
+    function Card(props){
+        <div className= {`relative lg:w-[20vw] sm:w-[20vw] w-[100vw] max-sm:mx-5 sm:h-[30vw] lg:h-[20vw] rounded-2xl lg:p-10 sm:p-5 max-sm:pr-[20vw] max-sm:pl-10 py-5  [&>h1]:mt-3 [&>h1]:font-bold ${props.bg}`}>
+                <img className=" absolute bottom-0 w-[12vw]" alt={props.alt} src={props.rc}/>
+                <h1>gofood</h1>
+                <h1>gofood</h1>
+                <h1>gofood</h1>
+                <h1>gofood</h1>
+            </div>
+    }
     return(
         <div className="px-[5vh] text-white bg-slate-900">
             <div className="flex flex-col items-center justify-center">
@@ -8,36 +17,36 @@ export default function Layanan(){
             <div className="relative overflow-hidden h-screen">
             <div
             className="flex flex-row justify-center h-[75vh] my-20 items-center lg:gap-20 sm:gap-10 pt-[10vh] -rotate-[15deg]">
-            <div className= "relative lg:w-[15vw] sm:w-[20vw] w-[100vw] max-sm:mx-5 sm:h-[30vw] lg:h-[20vw] rounded-2xl lg:p-10 sm:p-5 max-sm:pr-[20vw] max-sm:pl-10 py-5  [&>h1]:mt-3 [&>h1]:font-bold bg-greenBG ">
-                <img className=" absolute bottom-0 w-[12vw]" alt="bg" src="https://lelogama.go-jek.com/prime/upload/image/product-intro-card-bg-transport.svg"/>
+            <div className= "relative lg:w-[20vw] sm:w-[20vw] w-[100vw] max-sm:mx-5 sm:h-[30vw] lg:h-[20vw] rounded-2xl lg:p-10 sm:p-5 max-sm:pr-[20vw] max-sm:pl-10 py-5  [&>h1]:mt-3 [&>h1]:font-bold bg-greenBG ">
+                <img className=" absolute bottom-0 w-[10vw]" alt="bg" src="https://lelogama.go-jek.com/prime/upload/image/product-intro-card-bg-transport.svg"/>
                 <h1>gofood</h1>
                 <h1>gofood</h1>
                 <h1>gofood</h1>
                 <h1>gofood</h1>
             </div>
-            <div className= "relative lg:w-[15vw] sm:w-[20vw] w-[100vw] max-sm:mx-5 sm:h-[30vw] lg:h-[20vw] rounded-2xl lg:p-10 sm:p-5 max-sm:pr-[20vw] max-sm:pl-10 py-5  [&>h1]:mt-3 [&>h1]:font-bold bg-blueBG ">
-                <img className=" absolute bottom-0 w-[12vw]" alt="bg" src="bg-card.svg"/>
+            <div className= "relative lg:w-[20vw] sm:w-[20vw] w-[100vw] max-sm:mx-5 sm:h-[30vw] lg:h-[20vw] rounded-2xl lg:p-10 sm:p-5 max-sm:pr-[20vw] max-sm:pl-10 py-5  [&>h1]:mt-3 [&>h1]:font-bold bg-blueBG ">
+                <img className=" absolute bottom-0 w-[10vw]" alt="bg" src="bg-card.svg"/>
                 <h1>gofood</h1>
                 <h1>gofood</h1>
                 <h1>gofood</h1>
                 <h1>gofood</h1>
             </div>
-            <div className= "relative lg:w-[15vw] sm:w-[20vw] w-[100vw] max-sm:mx-5 sm:h-[30vw] lg:h-[20vw] rounded-2xl lg:p-10 sm:p-5 max-sm:pr-[20vw] max-sm:pl-10 py-5  [&>h1]:mt-3 [&>h1]:font-bold bg-redBG ">
-                <img className=" absolute bottom-0 w-[12vw]" alt="bg" src="https://lelogama.go-jek.com/prime/upload/image/product-intro-card-bg-food.svg"/>
+            <div className= "relative lg:w-[20vw] sm:w-[20vw] w-[100vw] max-sm:mx-5 sm:h-[30vw] lg:h-[20vw] rounded-2xl lg:p-10 sm:p-5 max-sm:pr-[20vw] max-sm:pl-10 py-5  [&>h1]:mt-3 [&>h1]:font-bold bg-redBG ">
+                <img className=" absolute bottom-0 w-[10vw]" alt="bg" src="https://lelogama.go-jek.com/prime/upload/image/product-intro-card-bg-food.svg"/>
                 <h1>gofood</h1>
                 <h1>gofood</h1>
                 <h1>gofood</h1>
                 <h1>gofood</h1>
             </div>
-            <div className= "relative lg:w-[15vw] sm:w-[20vw] w-[100vw] max-sm:mx-5 sm:h-[30vw] lg:h-[20vw] rounded-2xl lg:p-10 sm:p-5 max-sm:pr-[20vw] max-sm:pl-10 py-5  [&>h1]:mt-3 [&>h1]:font-bold bg-purpleBG ">
-                <img className=" absolute bottom-0 w-[12vw]" alt="bg" src="https://lelogama.go-jek.com/prime/upload/image/product-intro-card-bg-business.svg"/>
+            <div className= "relative lg:w-[20vw] sm:w-[20vw] w-[100vw] max-sm:mx-5 sm:h-[30vw] lg:h-[20vw] rounded-2xl lg:p-10 sm:p-5 max-sm:pr-[20vw] max-sm:pl-10 py-5  [&>h1]:mt-3 [&>h1]:font-bold bg-purpleBG ">
+                <img className=" absolute bottom-0 w-[10vw]" alt="bg" src="https://lelogama.go-jek.com/prime/upload/image/product-intro-card-bg-business.svg"/>
                 <h1>gofood</h1>
                 <h1>gofood</h1>
                 <h1>gofood</h1>
                 <h1>gofood</h1>
             </div>
-            <div className= "relative lg:w-[15vw] sm:w-[20vw] w-[100vw] max-sm:mx-5 sm:h-[30vw] lg:h-[20vw] rounded-2xl lg:p-10 sm:p-5 max-sm:pr-[20vw] max-sm:pl-10 py-5  [&>h1]:mt-3 [&>h1]:font-bold bg-pinkBG ">
-                <img className=" absolute bottom-0 w-[12vw]" alt="bg" src="https://lelogama.go-jek.com/prime/upload/image/product-intro-card-bg-entertainment.svg"/>
+            <div className= "relative lg:w-[20vw] sm:w-[20vw] w-[100vw] max-sm:mx-5 sm:h-[30vw] lg:h-[20vw] rounded-2xl lg:p-10 sm:p-5 max-sm:pr-[20vw] max-sm:pl-10 py-5  [&>h1]:mt-3 [&>h1]:font-bold bg-pinkBG ">
+                <img className=" absolute bottom-0 w-[10vw]" alt="bg" src="https://lelogama.go-jek.com/prime/upload/image/product-intro-card-bg-entertainment.svg"/>
                 <h1>gofood</h1>
                 <h1>gofood</h1>
                 <h1>gofood</h1>

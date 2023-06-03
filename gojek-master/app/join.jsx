@@ -3,15 +3,15 @@ export default function Join() {
   function Card(props) {
     return (
       <div
-        className={`relative lg:h-[28rem] lg:w-[20rem] md:mt-[10vw] mt-[17vw] md:h-[25rem] md:w-[20rem] max-md:basis-1/2 w-[20rem] h-[20rem] flex flex-col justify-center px-5 rounded-[3vw] text-left shadow-2xl ${props.color} ${props.shadowColor} `}
+        className={`relative lg:h-[25rem] lg:w-[20rem] md:mt-[10vw] mt-[17vw] md:h-[25rem] md:w-[20rem] lg:basis-1/5 max-md:basis-1/2 w-[20rem] h-[20rem] flex flex-col justify-center px-5 rounded-[3vw] text-left shadow-2xl ${props.color} ${props.shadowColor} `}
       >
         <img
           className="-top-1/4 w-auto left-0 absolute"
           src={props.src}
           alt={props.alt}
         />
-        <div className="absolute md:top-[45%] top-[30%] sm:px-5">
-        <h1 className="text-left font-bold md:text-5xl text-3xl">
+        <div className="absolute md:top-[40%] top-[30%] sm:px-5 lg:px-2">
+        <h1 className="text-left font-bold md:text-4xl text-3xl">
           {props.title}
         </h1>
         <p className="md:text-xl sm:text-lg mt-3 font-semibold pr-10">{props.desc}</p>

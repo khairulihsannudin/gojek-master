@@ -40,18 +40,18 @@ export default function Footer() {
             <div>
               <h1>Cari tahu berita terbaru</h1>
               <div className="flex flex-row gap-10 mt-5">
-                <img src="appstore.svg" alt="appstore" className="w-[30px]" />
-                <img src="playstore.svg" alt="playstore" className="w-[30px]" />
-                <img src="appstore.svg" alt="appstore" className="w-[30px]" />
-                <img src="playstore.svg" alt="playstore" className="w-[30px]" />
+                <img src="fb.svg" alt="fb" className="w-[30px]"  />
+                <img src="twit.svg" alt="twit" className="w-[30px]" />
+                <img src="ig.svg" alt="ig" className="w-[30px]" />
+                <img src="yt.svg" alt="playstore" className="w-[30px]" />
               </div>
             </div>
 
             <div className="mt-10">
               <h1>Unduh Aplikasi</h1>
               <div className="flex flex-row gap-10 mt-5">
-                <img src="appstore.svg" alt="appstore" className="w-[30px]" />
-                <img src="playstore.svg" alt="playstore" className="w-[30px]" />
+                <img src="appstore.svg" fill='#fff' alt="appstore" className="w-[30px] fill-white" />
+                <img src="playstore.svg" alt="playstore" className="w-[30px] fill-white" />
               </div>
             </div>
           </div>
