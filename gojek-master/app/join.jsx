@@ -1,20 +1,20 @@
 export default function Join() {
-  const text = "md:text-[3rem] sm:text-[2rem] lg:text-[4rem] font-bold";
+  const text = "md:text-[3rem] lg:text-[4rem] text-[2rem] font-bold";
   function Card(props) {
     return (
       <div
-        className={`relative lg:h-[28rem] lg:w-[40rem]  max-sm:h-[10rem] flex flex-col justify-center  max-lg:basis-1/3 max-sm:w-3/4 px-5 rounded-[3vw] text-left shadow-2xl ${props.color} ${props.shadowColor} `}
+        className={`relative lg:h-[28rem] lg:w-[20rem] md:mt-[10vw] mt-[17vw] md:h-[25rem] md:w-[20rem] max-md:basis-1/2 w-[20rem] h-[20rem] flex flex-col justify-center px-5 rounded-[3vw] text-left shadow-2xl ${props.color} ${props.shadowColor} `}
       >
         <img
-          className="-top-1/4 max-sm:-top-[45%] w-auto max-sm:w-1/2 left-0 absolute"
+          className="-top-1/4 w-auto left-0 absolute"
           src={props.src}
           alt={props.alt}
         />
-        <div className="absolute top-[45%] px-5">
-        <h1 className="text-left font-bold text-5xl">
+        <div className="absolute md:top-[45%] top-[30%] sm:px-5">
+        <h1 className="text-left font-bold md:text-5xl text-3xl">
           {props.title}
         </h1>
-        <p className="text-xl mt-3 font-semibold pr-10">{props.desc}</p>
+        <p className="md:text-xl sm:text-lg mt-3 font-semibold pr-10">{props.desc}</p>
         </div>
       </div>
     );
@@ -28,9 +28,9 @@ export default function Join() {
           Gabung
         </button>
       </div>
-      <div className=" -mt-[10vh] bg-white rounded-t-[10vh] ">
-        <div className="flex flex-col md:flex-row flex-wrap justify-between px-[5%] [&>div]:text-center items-start [&>div]:flex [&>div]:flex-col [&>div]:justify-center [&>div]:items-center gap-[2vh] [&>div>h2]:font-bold lg:[&>div]:-mt-[20vh] lg:[&>div]:basis-1/5 md:[&>div]:basis-1/3  [&>div>p]:text-[2.5vh] [&>div>h2]:text-[4vh]">
-          <div className="">
+      <div className=" -mt-[10vh] bg-white rounded-t-[10vh]">
+        <div className="flex flex-col [&>div>img]:max-lg:w-[80%] [&>div]:max-md:w-[50%] max-md:items-center md:flex-row flex-wrap justify-between px-[5%] [&>div]:text-center items-start [&>div]:flex [&>div]:flex-col [&>div]:justify-center [&>div]:items-center gap-[2vh] [&>div>h2]:font-bold lg:[&>div]:-mt-[20vh]  lg:[&>div]:basis-1/5 md:[&>div]:basis-1/3  [&>div>p]:text-[2.5vh] [&>div>h2]:text-[4vh]">
+          <div className="md:-mt-[30vh] sm:-mt-[40vh] -mt-[20vh]">
             <img className="" src="gerak1.svg" alt="gif" />
             <h2>Fortune Top 20</h2>
             <p>
@@ -38,7 +38,7 @@ export default function Join() {
               daftar Perusahaan Pengubah Dunia versi majalah Fortune
             </p>
           </div>
-          <div className="">
+          <div className="md:-mt-[30vh] ">
             <img className="" src="gerak2.svg" alt="gif" />
             <h2>Berkontribusi lebih dari $7.1 triliun</h2>
             <p>Penggerak roda perekonomian Indonesia</p>
@@ -65,7 +65,7 @@ export default function Join() {
           <button className="text-white bg-greenNew mt-[2vh] text-[3vh] font-bold rounded-full py-[2vh] px-[3vh]">
             Gabung
           </button>
-          <div className="flex flex-col sm:flex-row max-lg:justify-center lg:w-full h-screen items-center gap-[5vh] mt-[2vw] px-[3%] ">
+          <div className="flex flex-wrap flex-row justify-center  w-full h-auto items-center gap-[5vh] lg:mt-[2vw] px-[3%] ">
             <Card
               src="skala_green.png"
               alt="Gambar biru"

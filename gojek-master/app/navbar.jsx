@@ -87,7 +87,7 @@ export const Navbar = (props) => {
           isHamOpen
             ? "flex flex-col bg-slate-900 w-full overflow-scroll mt-[2vh]"
             : "hidden"
-        } lg:flex-row font-lato items-start h-full justify-between lg:items-center lg:justify-center lg:gap-[2.5vw] text-white`}
+        } lg:flex-row font-lato items-start h-full max-sm:gap-[3rem] max-sm:mt-5 sm:justify-between lg:items-center lg:justify-center lg:gap-[2.5vw] text-white`}
       >
         <li className={list}>
           <a href="/">Beranda</a>
@@ -99,7 +99,7 @@ export const Navbar = (props) => {
           >
             <p>Gabung Jadi Mitra</p>
             <div
-              className={`w-[0.7vw] h-[0.7vw] border-r-2 mb-1 border-solid border-white transform border-b-2 ${
+              className={`lg:w-[0.7vw]  w-[0.7rem] lg:h-[0.7vw]  h-[0.7rem] max-lg:ml-2 border-r-2 mb-1 border-solid border-white transform border-b-2 ${
                 props.rotate
                   ? "rotate-[225deg] translate-y-1/2 duration-500"
                   : "rotate-45  duration-500"
@@ -126,7 +126,7 @@ export const Navbar = (props) => {
           <div className={`cursor-pointer ${list} `} onClick={Rotation2}>
             <p>Perusahaan</p>
             <div
-              className={`border-white w-[0.7vw] h-[0.7vw] mb-1 transform border-r-2 border-solid border-b-2 ${
+              className={`border-white lg:w-[0.7vw]  w-[0.7rem] lg:h-[0.7vw]  h-[0.7rem] max-lg:ml-2 mb-1 transform border-r-2 border-solid border-b-2 ${
                 props.rotate2
                   ? "rotate-[225deg] translate-y-1/2 duration-500"
                   : "rotate-45 duration-500"
@@ -163,7 +163,7 @@ export const Navbar = (props) => {
           <a href="/">ID</a>
           </div>
           <div
-              className={`border-white w-[0.7vw] h-[0.7vw] mb-1 transform border-r-2 border-solid border-b-2 ${
+              className={`border-white lg:w-[0.7vw]  w-[0.7rem] lg:h-[0.7vw]  h-[0.7rem] max-lg:ml-2 mb-1 transform border-r-2 border-solid border-b-2 ${
                 props.rotate3
                   ? "rotate-[225deg] translate-y-1/2 duration-500"
                   : "rotate-45 duration-500"

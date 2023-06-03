@@ -28,7 +28,7 @@ export default function Beda() {
           <h1 className="text-2xl">{props.title}</h1>
           <div className="grid grid-flow-col justify-between w-[30vw] items-end">
             <p className="font-light">{props.desc}</p>
-            <div className="bg-green-500 rounded-full py-2 px-3">
+            <div className="bg-greenNew rounded-full py-2 px-3">
               Selengkapnya
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function Beda() {
             />
           </svg>
         </button>
-        <SwiperSlide>
+        <SwiperSlide classname="max-md:hidden">
           <Card
             src="beda.png"
             alt="Card 1"
@@ -118,7 +118,7 @@ export default function Beda() {
         </SwiperSlide>
         <SwiperSlide>
           <Card
-            src="beda.png"
+            src="https://lelogama.go-jek.com/prime/upload/cache/62/ac/62ac3b0465bd61d4f71f1920238467bc.webp"
             alt="Card 1"
             title="Gojek Berkembang"
             desc="Bersama Gojek membangun negeri"
@@ -126,7 +126,7 @@ export default function Beda() {
         </SwiperSlide>
         <SwiperSlide>
           <Card
-            src="beda.png"
+            src="https://lelogama.go-jek.com/prime/upload/cache/c3/92/c392712c606a8a4a0c2a7d6fa191771f.webp"
             alt="Card 1"
             title="Gojek Berkembang"
             desc="Bersama Gojek membangun negeri"
@@ -134,7 +134,7 @@ export default function Beda() {
         </SwiperSlide>
         <SwiperSlide>
           <Card
-            src="beda.png"
+            src="https://lelogama.go-jek.com/prime/upload/cache/0c/61/0c6106ede99edb7281ac73e4bc5e8f4e.webp"
             alt="Card 1"
             title="Gojek Berkembang"
             desc="Bersama Gojek membangun negeri"
